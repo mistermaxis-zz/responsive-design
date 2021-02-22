@@ -1,39 +1,40 @@
+/*      FLEX     */
 .flex-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .flex-container {
-    display: flex;
+  display: flex;
 }
-
+/*      HEADER      */
 .header-style {
-    height: 100px;
-    background-color: gray;
+  height: 100px;
+  background-color: gray;
 }
-
+/*      MAIN        */
 .highlights {
-    background-color: red;
-    height: 200px;
+  background-color: red;
+  height: 200px;
 }
 
 .funding {
-    background-color: purple;
-    height: 200px;
+  background-color: purple;
+  height: 200px;
 }
-
+/*      FOOTER       */
 .footer-style {
-    height: 100px;
-    background-color: orange;
+  height: 100px;
+  background-color: orange;
 }
-
+/*      MEDIA QUERIES       */
 @media screen and (min-width: 768px) {
-    body {
-        background-color: aqua;
-    }
+  body {
+    background-color: aqua;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    body {
-        background-color: pink;
-    }
+  body {
+    background-color: pink;
+  }
 }

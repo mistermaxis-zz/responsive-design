@@ -1,0 +1,11 @@
+@media screen and (device-width: 768px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media screen and (device-width: 1024px) {
+    body {
+        background-color: pink;
+    }
+}

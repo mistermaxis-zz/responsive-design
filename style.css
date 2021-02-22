@@ -1,10 +1,19 @@
 /*      FLEX     */
-.flex-column {
-  flex-direction: column;
-}
-
 .flex-container {
   display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+  }
+
+.spacebetween {
+    justify-content: space-between;
+}
+
+/*      LENGTH AND WIDTH        */
+.full-width {
+    max-width: 100%;
 }
 
 /*      HEADER      */
@@ -15,6 +24,15 @@
 
 .top-nav {
     background-color: #131313;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    color: #aeaeae;
+    padding: 0 1%;
+}
+
+.top-nav a {
+    color: inherit;
+    text-decoration: none;
 }
 
 /*      MAIN        */

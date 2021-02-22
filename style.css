@@ -6,11 +6,17 @@
 .flex-container {
   display: flex;
 }
+
 /*      HEADER      */
 .header-style {
   height: 100px;
   background-color: gray;
 }
+
+.top-nav {
+    background-color: #131313;
+}
+
 /*      MAIN        */
 .highlights {
   background-color: red;
@@ -21,11 +27,13 @@
   background-color: purple;
   height: 200px;
 }
+
 /*      FOOTER       */
 .footer-style {
   height: 100px;
   background-color: orange;
 }
+
 /*      MEDIA QUERIES       */
 @media screen and (min-width: 768px) {
   body {

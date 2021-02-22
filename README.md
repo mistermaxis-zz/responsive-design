@@ -2,10 +2,10 @@
 
 # Project Name
 
-> Project from week 2 in the Microverse program, dealing with responsive design using media queries.
+> Project from week 2 in the Microverse program.
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+In this project we were tasked with creating a responsive webpage using media queries, flexbox and CSS grid.
 
 ## Built With
 
@@ -14,7 +14,6 @@ Additional description about the project and its features.
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 

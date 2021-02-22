@@ -2,16 +2,14 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> Project from week 2 in the Microverse program, dealing with responsive design using media queries.
 ![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5, CSS3
 
 ## Live Demo
 
@@ -28,31 +26,29 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+Computer with internet conexion
+
 ### Setup
+
+Clone or zip the Github project
 
 ### Install
 
-### Usage
+Double click index.html
 
 ### Run tests
 
+Terminal commands: [npm i] to install dependencies | [npx hint .] to run Webhint | [npx stylelint "**/*.{css,scss}"] to run Styleint
+
 ### Deployment
 
-
+Upload index.html, style.css and the assets folder to a hosting server
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@mistermaxis](https://github.com/mistermaxis)
 
 ## 🤝 Contributing
 

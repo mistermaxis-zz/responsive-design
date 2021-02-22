@@ -2,6 +2,11 @@
     display: flex;
 }
 
+.header-style {
+    height: 100px;
+    background-color: gray;
+}
+
 .highlights {
     background-color: red;
     height: 200px;
@@ -10,6 +15,11 @@
 .funding {
     background-color: purple;
     height: 200px;
+}
+
+.footer-style {
+    height: 100px;
+    background-color: orange;
 }
 
 @media screen and (min-width: 768px) {

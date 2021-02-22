@@ -1,3 +1,7 @@
+.flex-container {
+    display: flex;
+}
+
 .highlights {
     background-color: red;
     height: 200px;

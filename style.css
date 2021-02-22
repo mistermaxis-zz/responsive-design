@@ -1,3 +1,13 @@
+.highlights {
+    background-color: red;
+    height: 200px;
+}
+
+.funding {
+    background-color: purple;
+    height: 200px;
+}
+
 @media screen and (min-width: 768px) {
     body {
         background-color: aqua;

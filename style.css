@@ -80,7 +80,7 @@
   border: none;
 	border-left: 2px solid #eee;
   background-color: #fcfcfc;
-  padding: 1.4rem;
+  padding: 1.3rem;
 }
 
 .search-icon img {
@@ -92,7 +92,7 @@
 	border: none;
 	border-left: 2px solid #eee;
   background-color: #fcfcfc;
-	padding: 1.4rem;
+	padding: 1.3rem;
 }
 
 .hamburger-icon img {
@@ -123,10 +123,9 @@
 
 /*      FOOTER       */
 .footer-style {
-  height: 100px;
+  align-items: center;
   background-color: orange;
 }
-
 /*      MEDIA QUERIES       */
 @media screen and (min-width: 768px) {
   .top-nav {

@@ -1,62 +1,106 @@
-/*      FLEX     */
+/*      			FLEX			     */
 .flex-container {
   display: flex;
 }
 
 .flex-column {
-    flex-direction: column;
-  }
+  flex-direction: column;
+}
 
 .spacebetween {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
-/*      LENGTH AND WIDTH        */
+/*      			LENGTH AND WIDTH			        */
 .full-width {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-/*      HEADER      */
+/*      			HEADER      			*/
 .header-style {
-  background-color: #eeeeee;
+  background-color: #eee;
 }
-
+/*		TOP NAV		*/
 .top-nav {
-    background-color: #131313;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 120%;
-    color: #aeaeae;
-    height: 0;
-    visibility: hidden;
+  background-color: #131313;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 120%;
+  color: #aeaeae;
+  height: 0;
+  visibility: hidden;
 }
 
 .top-nav div {
-    margin: 0 1rem;
-    padding: 0.5rem 0;
+  margin: 0 1rem;
+  padding: 0.5rem 0;
 }
 
 .top-nav a {
-    color: inherit;
-    text-decoration: none;
-    margin: 0.5rem;
+  color: inherit;
+  text-decoration: none;
+  margin: 0.5rem;
 }
 
 .down-triangle {
-    font-size: 50%;
-    align-self: center;
+  font-size: 50%;
+  align-self: center;
+}
+/*		MID NAV		*/
+.mid-nav {
+  background-color: #fcfcfc;
+	justify-content: space-between;
 }
 
+.logo {
+  width: 10rem;
+}
+
+.mid-nav-links {
+	align-items: center;
+}
+
+.mid-nav-left-links {
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.mid-nav-left-links a {
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 120%;
+	color: #999;
+	text-decoration: none;
+}
+
+.mid-nav-left-links a:visited {
+	color: #999;
+}
+
+.search-icon {
+	border-left: 2px solid #eee;
+	height: 1.5rem;
+  padding: 1.4rem;
+}
+
+.hamburger-icon {
+  visibility: visible;
+	height: 1.5rem;
+	border-left: 2px solid #eee;
+	padding: 1.4rem;
+}
+/*		BOTTOM NAV		*/
 .bottom-nav {
-    background-color: #ffdd33;
-    color: #201c07;
-    font-size: 100%;
-    font-weight: bold;
-    text-align: center;
-    padding: 2% 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #fd3;
+  color: #201c07;
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  padding: 5% 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-/*      MAIN        */
+/*					~HEADER~					*/
+/*      			MAIN        			*/
+/*		HIGHLIGHTS		*/
 .highlights {
   background-color: red;
   height: 200px;
@@ -76,17 +120,45 @@
 /*      MEDIA QUERIES       */
 @media screen and (min-width: 768px) {
   .top-nav {
-      height: auto;
-      visibility: visible;
+    height: auto;
+    visibility: visible;
   }
+
   .bottom-nav {
-      text-align: left;
-      padding: 0.8% 1.5%;
+    text-align: left;
+    padding: 0.8% 1.5%;
   }
+
+  .logo {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+		justify-self: flex-start;
+  }
+
+	.mid-nav-links {
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.mid-nav-left-links {
+		width: 50%;
+		height: auto;
+		visibility: visible;
+		justify-content: space-evenly;
+	}
+
+	.hamburger-icon {
+		width: 0;
+		height: 0;
+		margin: 0;
+		padding: 0;
+		visibility: hidden;
+	}
 }
 
 @media screen and (min-width: 1024px) {
   body {
-    background-color: pink;
+    background-color: #fff;
   }
 }

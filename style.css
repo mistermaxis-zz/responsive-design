@@ -77,16 +77,26 @@
 }
 
 .search-icon {
+  border: none;
 	border-left: 2px solid #eee;
-	height: 1.5rem;
+  background-color: #fcfcfc;
   padding: 1.4rem;
+}
+
+.search-icon img {
+  height: 1.5rem;
 }
 
 .hamburger-icon {
   visibility: visible;
-	height: 1.5rem;
+	border: none;
 	border-left: 2px solid #eee;
+  background-color: #fcfcfc;
 	padding: 1.4rem;
+}
+
+.hamburger-icon img {
+  height: 1.5rem;
 }
 /*		BOTTOM NAV		*/
 .bottom-nav {
@@ -153,6 +163,7 @@
 		height: 0;
 		margin: 0;
 		padding: 0;
+    border: 0;
 		visibility: hidden;
 	}
 }

@@ -10,12 +10,14 @@
 .spacebetween {
   justify-content: space-between;
 }
-
+/*            GRID            */
+.grid-container {
+  display: grid;
+}
 /*      			LENGTH AND WIDTH			        */
 .full-width {
   max-width: 100%;
 }
-
 /*      			HEADER      			*/
 .header-style {
   background-color: #eee;
@@ -70,6 +72,7 @@
 	font-size: 120%;
 	color: #999;
 	text-decoration: none;
+  margin: 0.5rem;
 }
 
 .mid-nav-left-links a:visited {
@@ -80,11 +83,11 @@
   border: none;
 	border-left: 2px solid #eee;
   background-color: #fcfcfc;
-  padding: 1.3rem;
+  padding: 1.2rem;
 }
 
 .search-icon img {
-  height: 1.5rem;
+  height: 1.4rem;
 }
 
 .hamburger-icon {
@@ -92,11 +95,11 @@
 	border: none;
 	border-left: 2px solid #eee;
   background-color: #fcfcfc;
-	padding: 1.3rem;
+	padding: 1.2rem;
 }
 
 .hamburger-icon img {
-  height: 1.5rem;
+  height: 1.4rem;
 }
 /*		BOTTOM NAV		*/
 .bottom-nav {
@@ -111,9 +114,8 @@
 /*					~HEADER~					*/
 /*      			MAIN        			*/
 /*		HIGHLIGHTS		*/
-.highlights {
-  background-color: red;
-  height: 200px;
+.highlights { 
+  grid-template-areas: 'auto' 'auto' 'auto';
 }
 
 .funding {
@@ -121,10 +123,72 @@
   height: 200px;
 }
 
+.article-item {
+  align-items: flex-end;
+  height: 20rem;
+}
+
+.article-opal {
+  background-image: url(assets/images/opal.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+.article-cookie-killer {
+  background-image: url(assets/images/cookie-killer.png);
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+.article-mac-app {
+  background-image: url(assets/images/mac_app.jpg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
 /*      FOOTER       */
 .footer-style {
   align-items: center;
-  background-color: orange;
+  background-color: #131313;
+}
+.social-media {
+  width: 20%;
+  min-width: 20rem;
+  padding-top: 2.5%;
+}
+
+.social-media a img {
+  height: 2rem;
+}
+
+.footer-links {
+  padding-top: 1.5%;
+  padding-bottom: 2.5%;
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+.footer-links a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: #aaa;
+}
+
+.footer-links a:visited {
+  text-decoration: none;
+  color:#aaa;
+}
+
+.copyright-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  text-align: center;
+  padding: 2.5% 0;
+  background-color: #000;
+  color: #aaa;
+}
+
+.stackpath-text-footer, .title-text-footer {
+  color:#fcfcfc;
 }
 /*      MEDIA QUERIES       */
 @media screen and (min-width: 768px) {
@@ -154,7 +218,8 @@
 		width: 50%;
 		height: auto;
 		visibility: visible;
-		justify-content: space-evenly;
+    margin-left: 1rem;
+		justify-content: space-between;
 	}
 
 	.hamburger-icon {
@@ -165,10 +230,41 @@
     border: 0;
 		visibility: hidden;
 	}
+
+  .highlights {
+    background-color: red;
+    grid-template-areas: 
+    'main main side'
+    'main main side';
+  }
+  
+  .article-opal {
+    grid-area: main;
+    height: 25rem;
+  }
+  
+  .article-cookie-killer, .article-mac-app {
+    height: 12.5rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+
   body {
     background-color: #fff;
+  }
+
+  .highlights {
+    background-color: red;
+    grid-template-areas: 
+    'main main side'
+    'main main side';
+  }
+
+  .article-opal {
+    height: 32rem;
+  }
+  .article-cookie-killer, .article-mac-app {
+    height: auto;
   }
 }

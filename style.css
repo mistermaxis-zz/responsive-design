@@ -163,19 +163,19 @@
 .article-opal {
   background-image: url(assets/images/opal.png);
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: cover;
 }
 
 .article-cookie-killer {
   background-image: url(assets/images/cookie-killer.png);
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: cover;
 }
 
 .article-mac-app {
   background-image: url(assets/images/mac_app.jpg);
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: cover;
 }
 
 /*      FOOTER       */
@@ -225,6 +225,7 @@
 @media screen and (min-width: 768px) {
   .top-nav {
     height: auto;
+    font-size: 120%;
     width: 100%;
     visibility: visible;
   }
@@ -241,7 +242,6 @@
     width: auto;
     height: auto;
     color: inherit;
-    font-size: 120%;
     visibility: visible;
     text-decoration: none;
     margin: 0.5rem;

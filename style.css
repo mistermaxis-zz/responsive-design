@@ -29,11 +29,13 @@
 
 /*		TOP NAV		*/
 .top-nav {
+  width: 100%;
   background-color: #131313;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 120%;
   color: #aeaeae;
   height: 0;
+  width: 0;
   visibility: hidden;
 }
 
@@ -55,6 +57,7 @@
 
 /*		MID NAV		*/
 .mid-nav {
+  width: 100%;
   background-color: #fcfcfc;
   justify-content: space-between;
 }
@@ -64,21 +67,26 @@
 }
 
 .mid-nav-links {
+  width: 100%;
   align-items: center;
 }
 
 .mid-nav-left-links {
   width: 0;
   height: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
   visibility: hidden;
 }
 
 .mid-nav-left-links a {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 120%;
-  color: #999;
-  text-decoration: none;
-  margin: 0.5rem;
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  visibility: hidden;
 }
 
 .footer-links a {
@@ -166,6 +174,7 @@
 .footer-style {
   align-items: center;
   background-color: #131313;
+  width: 100%;
 }
 
 .social-media {
@@ -208,6 +217,7 @@
 @media screen and (min-width: 768px) {
   .top-nav {
     height: auto;
+    width: 100%;
     visibility: visible;
   }
 
@@ -219,12 +229,18 @@
   .logo {
     width: 0;
     height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
     visibility: hidden;
     justify-self: flex-start;
   }
 
+  .mid-nav {
+    justify-content: initial;
+  }
+
   .mid-nav-links {
-    width: 100%;
     justify-content: space-between;
   }
 
@@ -232,8 +248,23 @@
     width: 50%;
     height: auto;
     visibility: visible;
-    margin-left: 1rem;
+    padding-left: 1rem;
     justify-content: space-between;
+  }
+
+  .mid-nav-left-links a {
+    width: auto;
+    height: auto;
+    visibility: visible;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: #999;
+    text-decoration: none;
+    margin: 0.5rem;
+  }
+
+  .search-icon {
+    justify-self: flex-end;
   }
 
   .hamburger-icon {
@@ -243,6 +274,14 @@
     padding: 0;
     border: 0;
     visibility: hidden;
+  }
+
+  .hamburger-icon img {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
   }
 
   .highlights {

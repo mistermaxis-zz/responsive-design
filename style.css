@@ -127,8 +127,20 @@
 }
 
 .funding {
-  background-color: purple;
-  height: 200px;
+  height: auto;
+}
+
+.funding img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.funding-article h4, h5 {
+  margin: 0;
+}
+
+.funding-article header {
+  background-image: linear-gradient(#f42 40%, #ffebe8 40%);
 }
 
 .article-item {
@@ -149,7 +161,7 @@
 }
 
 .article-mac-app {
-  background-image: url(assets/images/mac_app.jpg);
+  background-image: url(assets/images/mac-app.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -162,9 +174,10 @@
 }
 
 .social-media {
-  width: 20%;
-  min-width: 20rem;
+  width:100%;
   padding-top: 2.5%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .social-media a img {
@@ -174,8 +187,13 @@
 .footer-links {
   padding-top: 1.5%;
   padding-bottom: 2.5%;
-  width: 30%;
+  width: 100%;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  margin: 0 0.25rem;
 }
 
 .footer-links a:visited {
@@ -302,6 +320,10 @@
   .article-mac-app {
     height: 12.5rem;
   }
+
+  .footer-links {
+    width: 60%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -319,5 +341,9 @@
   .article-cookie-killer,
   .article-mac-app {
     height: auto;
+  }
+
+  .footer-links {
+    width: 30%;
   }
 }

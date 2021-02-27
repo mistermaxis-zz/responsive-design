@@ -3,7 +3,7 @@
 # Project Name
 
 > Project from week 2 in the Microverse program.
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/images/app-screenshot.png)
 
 In this project we were tasked with creating a responsive webpage using media queries, flexbox and CSS grid.
 

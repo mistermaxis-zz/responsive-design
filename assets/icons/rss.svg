@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="youtube.svg">
+   sodipodi:docname="rss.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.4"
-     inkscape:cx="16.868464"
-     inkscape:cy="17.062361"
+     inkscape:cx="6.7791783"
+     inkscape:cy="23.312361"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -53,8 +53,21 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       d="m 8.4832031,4.2290813 c 0,3.0038902 0,3.0038902 -4.2427827,3.0038902 -4.24278273,0 -4.24278273,0 -4.24278273,-3.0038902 0,-3.0038903 0,-3.0038903 4.24278273,-3.0038903 4.2427827,0 4.2427827,0 4.2427827,3.0038903 z m -2.6517392,0 -2.6517393,-1.5910435 v 3.182087 z"
-       id="path281"
-       style="stroke-width:0.530347;fill:#ffffff;fill-opacity:1" />
+       d="m -0.01417409,1.5724401 c 3.80787389,0 6.87532779,3.0674538 6.87532779,6.8753277 h 1.5866142 c 0,-4.654068 -3.8078739,-8.46194186 -8.46194199,-8.46194186 z m 0,1.586614 v 1.5866142 c 2.06259839,0 3.70209959,1.6400301 3.70209959,3.7020995 h 1.5866141 c 0,-2.9087925 -2.3799212,-5.2887137 -5.28871369,-5.2887137 z"
+       id="path186"
+       style="stroke-width:0.47598542;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.28154;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3282"
+       sodipodi:type="arc"
+       sodipodi:cx="0.84454077"
+       sodipodi:cy="7.6363006"
+       sodipodi:rx="0.82091713"
+       sodipodi:ry="0.82091713"
+       sodipodi:start="0"
+       sodipodi:end="6.0712849"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="M 1.6654579,7.6363006 A 0.82091713,0.82091713 0 0 1 0.88800861,8.4560661 0.82091713,0.82091713 0 0 1 0.02822692,7.7231143 0.82091713,0.82091713 0 0 1 0.71462477,6.8257287 0.82091713,0.82091713 0 0 1 1.6470964,7.4636468" />
   </g>
 </svg>

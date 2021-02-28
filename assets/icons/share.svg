@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="youtube.svg">
+   sodipodi:docname="share.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,7 +25,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="22.4"
      inkscape:cx="16.868464"
-     inkscape:cy="17.062361"
+     inkscape:cy="16.124861"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -53,8 +53,8 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       d="m 8.4832031,4.2290813 c 0,3.0038902 0,3.0038902 -4.2427827,3.0038902 -4.24278273,0 -4.24278273,0 -4.24278273,-3.0038902 0,-3.0038903 0,-3.0038903 4.24278273,-3.0038903 4.2427827,0 4.2427827,0 4.2427827,3.0038903 z m -2.6517392,0 -2.6517393,-1.5910435 v 3.182087 z"
-       id="path281"
-       style="stroke-width:0.530347;fill:#ffffff;fill-opacity:1" />
+       d="m 8.4592704,6.8673422 a 1.585043,1.585043 0 0 1 -3.1690299,0 v -0.00529 L 2.5463888,5.4919833 a 1.5845148,1.5845148 0 1 1 0,-2.5331111 L 5.2902405,1.5898515 v -0.00423 a 1.585043,1.585043 0 0 1 3.1690299,0 A 1.585043,1.585043 0 0 1 5.9214056,2.852177 L 3.1691032,4.2264841 5.9214056,5.6007867 a 1.5845148,1.5845148 0 0 1 2.5378648,1.2665555 z"
+       id="path208"
+       style="stroke-width:0.528171;fill:#ffffff;fill-opacity:1" />
   </g>
 </svg>

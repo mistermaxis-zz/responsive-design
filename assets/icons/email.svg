@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="youtube.svg">
+   sodipodi:docname="email.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.4"
-     inkscape:cx="16.868464"
-     inkscape:cy="17.062361"
+     inkscape:cx="16.708762"
+     inkscape:cy="17.553433"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -53,8 +53,8 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       d="m 8.4832031,4.2290813 c 0,3.0038902 0,3.0038902 -4.2427827,3.0038902 -4.24278273,0 -4.24278273,0 -4.24278273,-3.0038902 0,-3.0038903 0,-3.0038903 4.24278273,-3.0038903 4.2427827,0 4.2427827,0 4.2427827,3.0038903 z m -2.6517392,0 -2.6517393,-1.5910435 v 3.182087 z"
-       id="path281"
-       style="stroke-width:0.530347;fill:#ffffff;fill-opacity:1" />
+       d="M 4.2404206,4.7793317 0.00944943,1.6061035 c 0,-0.2935236 0.23587664,-0.5288714 0.52887136,-0.5288714 H 7.9425201 c 0.2929948,0 0.5288713,0.2353478 0.5288713,0.5288714 z m 0,0.9509109 4.2309708,-3.1737571 v 4.3383319 c 0,0.2935235 -0.2358765,0.5288713 -0.5288713,0.5288713 H 0.53832079 c -0.29299472,0 -0.52887136,-0.2353478 -0.52887136,-0.5288713 V 2.5564855 Z"
+       id="path119"
+       style="stroke-width:0.528871;fill:#ffffff;fill-opacity:1" />
   </g>
 </svg>

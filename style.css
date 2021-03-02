@@ -217,92 +217,6 @@
   background-size: cover;
 }
 
-/*            FUNDING           */
-.funding-header * {
-  color: #f42;
-  margin: 0;
-  text-decoration: none;
-}
-
-.funding-header {
-  display: flex;
-  flex-direction: column;
-  margin: 1.5rem 0;
-}
-
-.funding-header > h2 a {
-  font-family: Avalon-Bold, sans-serif;
-}
-
-.funding-links {
-  font-family: ARS-Marquette-Regular, Arial, Helvetica, sans-serif;
-  font-size: 0.95rem;
-}
-
-.funding-links {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0.5rem;
-}
-
-.funding-header  h2 a:hover,
-.funding-links > a:hover {
-  color: #000;
-}
-
-.funding-links span {
-  display: none;
-}
-
-.funding > header h2 a img {
-  content: url(assets/icons/right-arrow-orange.svg);
-  width: 1rem;
-  height: 1rem;
-}
-
-.funding > header h2 a img:hover {
-  content: url(assets/icons/right-arrow-black.svg);
-}
-
-.funding-article * {
-  margin: 0;
-}
-
-.funding-article {
-  margin-bottom: 2rem;
-  font-family: ARS-Marquette-Bold, Arial, Helvetica, sans-serif;
-}
-
-.funding-article header {
-  background-image: linear-gradient(#f53 40%, #ffebe8 40%);
-  padding: 0.6rem;
-}
-
-.funding-article header a {
-  display: flex;
-}
-
-.funding-article header a img {
-  width: 4rem;
-  height: 4rem;
-}
-
-.funding-article a {
-  text-decoration: none;
-}
-
-.funding-article-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 1rem;
-}
-
-.funding-article-icon {
-  width: 1rem;
-  height: 1rem;
-}
-
 /*      FOOTER       */
 .footer-style {
   align-items: center;
@@ -460,16 +374,6 @@
     height: auto;
   }
 
-  .funding-links {
-    width: 21rem;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .funding-links span {
-    display: inline;
-  }
-
   .social-media a {
     margin: 0 0.5rem;
   }
@@ -519,14 +423,5 @@
   .article-cookie-killer,
   .article-mac-app {
     height: auto;
-  }
-
-  .funding-header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .funding article:last-of-type {
-    display: none;
   }
 }

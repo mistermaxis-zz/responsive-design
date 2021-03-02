@@ -42,6 +42,10 @@
   color: #fff;
 }
 
+.funding-article-title > div h4 {
+  color: #000;
+}
+
 .funding-article section a p {
   font-size: 0.7rem;
   color: #888;
@@ -49,6 +53,9 @@
 
 .funding-article aside {
   border-top: #ffebe8 solid 3px;
+}
+
+.funding-article aside a {
   font-size: 0.65rem;
   color: #888;
 }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/layout.css">
     <title>Responsive Design Project</title>
 </head>
 
@@ -99,59 +100,90 @@
         </nav>
     </header>
 
-    <section class="highlights grid-container">
+    <main class="highlights grid-container">
 
-        <div class="article-opal flex-container article-item">
+        <article class="flex-container flex-column article-item article-opal">
             <aside>
-                <h5>
-                    Opal cuts off your apps' internet access to help you stop doomscrolling
-                </h5>
-                <span>by Ivan Mehta</span><span>&#128337;</span><span>2 hours ago</span><span>6</span>
+                <img class="article-logo" src="assets/icons/tnw.svg" alt="">
+                <span>Tuesday — January 26, 2021</span>
             </aside>
-        </div>
-        <div class="article-cookie-killer flex-container article-item">
-            <aside>
+            <header>
                 <h5>
-                    Google unveils privacy-friendly AI cookie killer
+                    <a href="">
+                        Opal cuts off your apps' internet access to help you stop doomscrolling
+                    </a>
                 </h5>
-                <span>by Ivan Mehta</span><span>2 hours ago</span><span>6</span>
-            </aside>
-        </div>
-        <div class="article-mac-app flex-container article-item">
-            <aside>
-                <h5>
-                    This Mac app automatically detects your duplicate files
-                </h5>
-                <span>by Ivan Mehta</span><span>2 hours ago</span><span>6</span>
-            </aside>
-        </div>
+                <section class="flex-container">
+                    <span>by <a href="">Ivan Mehta</a></span>
+                    <img src="assets/icons/clock.svg" alt="">
+                    <span>2 hours ago</span>
+                    <img src="assets/icons/share.svg" alt="">
+                    <span>6</span>
+                </section>
+            </header>
+        </article>
 
-    </section>
+        <article class="flex-container article-item article-cookie-killer">
+            <header>
+                <h5>
+                    <a href="">Google unveils privacy-friendly AI cookie killer</a>
+                </h5>
+                <section class="flex-container">
+                    <span>by <a href="">Ivan Mehta</a></span>
+                    <img src="assets/icons/clock.svg" alt="">
+                    <span>2 hours ago</span>
+                    <img src="assets/icons/share.svg" alt="">
+                    <span>6</span>
+                </section>
+            </header>
+        </article>
+
+        <article class="flex-container article-item article-mac-app">
+            <header>
+                <h5>
+                    <a href="">This Mac app automatically detects your duplicate files</a>
+                </h5>
+                <section class="flex-container">
+                    <span>by <a href="">Ivan Mehta</a>
+                    </span>
+                    <img src="assets/icons/clock.svg" alt="">
+                    <span>2 hours ago</span>
+                    <img src="assets/icons/share.svg" alt="">
+                    <span>6</span>
+                </section>
+            </header>
+        </article>
+
+    </main>
 
     <section class="funding">
         
-        <header>
+        <header class="funding-header">
             <h2>
                 <a href="">
-                    Latest funding rounds on Index.co
+                    Latest funding rounds on Index.co >
                 </a>
             </h2>
+            <section class="funding-links">
             <a href="">
-                <p>See more</p>
-            </a>
-            <a href="">
-                <p>Get updates by email</p>
-            </a>
-            <a href="">
-                <p>Add info</p>
-            </a>
+                    See more
+                </a>
+                <span>|</span>
+                <a href="">
+                    Get updates by email
+                </a>
+                <span>|</span>
+                <a href="">
+                    Add info
+                </a>
+            </section>
         </header>
 
         <article class="funding-article">
             <header>
-                <a class="flex-container" href="">
+                <a href="">
                     <img src="assets/images/ringover.png" alt="">
-                    <div class="flex-container flex-column">
+                    <div class="funding-article-title">
                         <h4>
                             Ringover
                         </h4>
@@ -169,11 +201,13 @@
             <section>
                 <a href="">
                     <p>
+                        <img class="funding-article-icon" src="assets/icons/price-tag.svg" alt="">
                         Telecommunications
                     </p>
                 </a>
                 <a href="">
                     <p>
+                        <img class="funding-article-icon" src="assets/icons/suitcase.svg" alt="">
                         Expedition Growth Capital
                     </p>
                 </a>
@@ -186,6 +220,133 @@
                 </span>
             </aside>
         </article>
+
+        <article class="funding-article">
+            <header>
+                <a class="flex-container" href="">
+                    <img src="assets/images/swiss-decode.png" alt="">
+                    <div class="funding-article-title">
+                        <h4>
+                            SwissDeCode
+                        </h4>
+                        <div>
+                            <h4>
+                                4.2M
+                            </h4>
+                            <h5>
+                                VENTURE CAPITAL
+                            </h5>
+                        </div>
+                    </div>
+                </a>
+            </header>
+            <section>
+                <a href="">
+                    <p>
+                        <img class="funding-article-icon" src="assets/icons/price-tag.svg" alt="">
+                        Biotechnology
+                    </p>
+                </a>
+                <a href="">
+                    <p>
+                        <img class="funding-article-icon" src="assets/icons/suitcase.svg" alt="">
+                        VisVires New Protein
+                    </p>
+                </a>
+            </section>
+            <aside>
+                <span>
+                    <a href="">
+                        BREAKING: Food testing startup SwissDeCode nets $4.2m from VisVires New Protein, EIT Food <span>on AgFunderNews</span>
+                    </a>
+                </span>
+            </aside>
+        </article>
+
+        <article class="funding-article">
+            <header>
+                <a href="">
+                    <img src="assets/images/klook.jpg" alt="">
+                    <div class="funding-article-title">
+                        <h4>
+                            Klook
+                        </h4>
+                        <div>
+                            <h4>
+                                200M
+                            </h4>
+                            <h5>
+                                SERIES E
+                            </h5>
+                        </div>
+                    </div>
+                </a>
+            </header>
+            <section>
+                <a href="">
+                    <p>
+                        <img class="funding-article-icon" src="assets/icons/price-tag.svg" alt="">
+                        Internet
+                    </p>
+                </a>
+                <a href="">
+                    <p>
+                        <img class="funding-article-icon" src="assets/icons/suitcase.svg" alt="">
+                        Boyu Capital, +4
+                    </p>
+                </a>
+            </section>
+            <aside>
+                <span>
+                    <a href="">
+                        SoftBank-backed travel platform Klook raises $200M amid COVID-19 <span>on TechCrunch</span>
+                    </a>
+                </span>
+            </aside>
+        </article>
+
+        <article class="funding-article">
+            <header>
+                <a href="">
+                    <img src="assets/images/wolt.jpg" alt="">
+                    <div class="funding-article-title">
+                        <h4>
+                            Wolt
+                        </h4>
+                        <div>
+                            <h4>
+                                530M
+                            </h4>
+                            <h5>
+                                VENTURE CAPITAL
+                            </h5>
+                        </div>
+                    </div>
+                </a>
+            </header>
+            <section>
+                <a href="">
+                    <p>
+                        <img class="funding-article-icon" src="assets/icons/price-tag.svg" alt="">
+                        Mobile, +5
+                    </p>
+                </a>
+                <a href="">
+                    <p>
+                        <img class="funding-article-icon" src="assets/icons/suitcase.svg" alt="">
+                        DTS Global, +9
+                    </p>
+                </a>
+            </section>
+            <aside>
+                <span>
+                    <a href="">
+                        Food delivery startup Wolt raises $530M after tripling revenues <span>on SiliconANGLE</span>
+                    </a>
+                </span>
+            </aside>
+        </article>
+
     </section>
 
     <footer class= "flex-container flex-column footer-style">
@@ -234,9 +395,22 @@
             </a>
         </div>
 
-        <div class="copyright-text">
-            <span class="title-text-footer">TNW</span> &#169; 2006-2021 The Next Web B.V Made with
-            <span>&#60;</span>3 in Amsterdam. Powered by <span class="stackpath-text-footer">STACKPATH</span>
+        <div class="copyright-text flex-container">
+            <span>
+                <a href="">
+                    <img src="assets/icons/tnw.svg" alt="">
+                </a>
+                &#169; 2006-2021 The Next Web B.V.
+            </span>
+            <span>
+                Made with &#60;3 in Amsterdam.
+            </span>
+            <span>
+                Powered by
+                <a href="">
+                    <img src="assets/icons/stackpath.svg" alt="">
+                </a>
+            </span>
         </div>
 
     </footer>

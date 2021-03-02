@@ -8,8 +8,8 @@
   src: url(assets/fonts/ars-marquette-regular.ttf);
 }
 @font-face {
-  font-family: "Avalon";
-  src: url(assets/fonts/avalon.ttf);
+  font-family: "Avalon-Bold";
+  src: url(assets/fonts/avalon-bold.ttf);
 }
 
 /*      			FLEX			     */
@@ -128,46 +128,179 @@
 /*		HIGHLIGHTS		*/
 .highlights {
   grid-template-areas: 'auto' 'auto' 'auto';
+  grid-gap: 0.5rem;
 }
 
-.funding {
-  height: auto;
+.highlights h5 a {
+  text-decoration: none;
+  font-family: Avalon-Bold, sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.1rem;
 }
 
-.funding img {
-  width: 4rem;
-  height: 4rem;
+.highlights span,
+.highlights span a {
+  font-family: ARS-Arquette-Regular, sans-serif;
+  font-size: 0.7rem;
+  color: hsla(0, 0%, 100%, 0.6)
 }
 
-.funding-article h4, h5 {
-  margin: 0;
+.highlights section img {
+  height: 1rem;
 }
 
-.funding-article header {
-  background-image: linear-gradient(#f42 40%, #ffebe8 40%);
+.article-logo {
+  height: 5rem;
+  width: 20rem;
 }
 
 .article-item {
   align-items: flex-end;
-  height: 20rem;
+  height: 10rem;
+  padding: 1rem;
+}
+
+.article-item h5 {
+  margin-bottom: 0.5rem;
+}
+
+.article-item header section span a:hover {
+  color:#fff;
+}
+
+.article-item aside span {
+  color: #fff;
+}
+
+.article-item section {
+  align-items: center;
+}
+
+.article-item section span {
+  margin: 0 0.3rem;
+}
+
+.article-item section span:first-of-type {
+  margin-left: 0;
+}
+
+.article-item section a {
+  text-decoration: none;
 }
 
 .article-opal {
-  background-image: url(assets/images/opal.png);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), url("assets/images/opal.png");
   background-size: cover;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.article-opal aside {
+  display: none;
+  justify-content: space-between;
+}
+
+.article-opal aside span {
+  font-size: 0.9rem;
 }
 
 .article-cookie-killer {
-  background-image: url(assets/images/cookie-killer.png);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), url("assets/images/cookie-killer.png");
   background-size: cover;
 }
 
 .article-mac-app {
-  background-image: url(assets/images/mac-app.png);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), url("assets/images/mac-app.png");
   background-size: cover;
+}
+
+/*            FUNDING           */
+.funding-header * {
+  color: #f42;
+  margin: 0;
+  text-decoration: none;
+}
+
+.funding-header {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+}
+
+.funding-header > h2 a {
+  font-family: Avalon-Bold, sans-serif;
+}
+
+.funding-links {
+  font-family: ARS-Marquette-Regular, Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+}
+
+.funding-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.funding-header  h2 a:hover,
+.funding-links > a:hover {
+  color: #000;
+}
+
+.funding-links span {
+  display: none;
+}
+
+.funding > header h2 a img {
+  content: url(assets/icons/right-arrow-orange.svg);
+  width: 1rem;
+  height: 1rem;
+}
+
+.funding > header h2 a img:hover {
+  content: url(assets/icons/right-arrow-black.svg);
+}
+
+.funding-article * {
+  margin: 0;
+}
+
+.funding-article {
+  margin-bottom: 2rem;
+  font-family: ARS-Marquette-Bold, Arial, Helvetica, sans-serif;
+}
+
+.funding-article header {
+  background-image: linear-gradient(#f53 40%, #ffebe8 40%);
+  padding: 0.6rem;
+}
+
+.funding-article header a {
+  display: flex;
+}
+
+.funding-article header a img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.funding-article a {
+  text-decoration: none;
+}
+
+.funding-article-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.funding-article-icon {
+  width: 1rem;
+  height: 1rem;
 }
 
 /*      FOOTER       */
@@ -223,17 +356,20 @@
 }
 
 .copyright-text {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: ARS-Arquette-Regular, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
   width: 100%;
   text-align: center;
+  justify-content: center;
+  flex-direction: column;
   padding: 2rem 0;
   background-color: #000;
   color: #aaa;
 }
 
-.stackpath-text-footer,
-.title-text-footer {
-  color: #fcfcfc;
+.copyright-text img {
+  height: 0.55rem;
 }
 
 /*      MEDIA QUERIES       */
@@ -247,7 +383,7 @@
   .top-nav div {
     width: auto;
     height: auto;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     padding: 0.5rem 0;
   }
 
@@ -256,7 +392,7 @@
     height: auto;
     color: inherit;
     text-decoration: none;
-    margin: 0.5rem;
+    margin-left: 1rem;
   }
 
   .bottom-nav {
@@ -305,24 +441,41 @@
   }
 
   .highlights {
-    background-color: red;
     grid-template-areas:
       'main main side'
       'main main side';
   }
 
+  .highlights article:first-of-type h5 a {
+    font-size: 2.5rem;
+  }
+
   .article-opal {
     grid-area: main;
-    height: 25rem;
+    height: 20rem;
   }
 
   .article-cookie-killer,
   .article-mac-app {
-    height: 12.5rem;
+    height: auto;
   }
 
-  .footer-links {
-    width: 60%;
+  .funding-links {
+    width: 21rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .funding-links span {
+    display: inline;
+  }
+
+  .social-media a {
+    margin: 0 0.5rem;
+  }
+
+  .copyright-text {
+    flex-direction: row;
   }
 }
 
@@ -340,18 +493,40 @@
   }
 
   .highlights {
-    background-color: red;
     grid-template-areas:
       'main main side'
       'main main side';
   }
 
+  .highlights article:first-of-type h5 a {
+    font-size: 3.5rem;
+  }
+
   .article-opal {
-    height: 32rem;
+    height: 30rem;
+  }
+
+  .article-opal {
+    background-image: linear-gradient(170deg, rgba(255,10,0,0.9) 0%, rgba(0,0,0,0) 50%,rgba(0,0,0,0.9) 100%), url("assets/images/opal.png");
+    background-size: cover;
+    justify-content: space-between;
+  }
+
+  .article-opal aside {
+    display: flex;
   }
 
   .article-cookie-killer,
   .article-mac-app {
     height: auto;
+  }
+
+  .funding-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .funding article:last-of-type {
+    display: none;
   }
 }

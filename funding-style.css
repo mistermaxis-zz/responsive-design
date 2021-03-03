@@ -76,7 +76,7 @@
   .funding-article:first-of-type {
     margin-left: 1rem;
   }
-  
+
   .funding-links {
     flex-direction: row;
     justify-content: space-between;
@@ -96,15 +96,14 @@
   .funding {
     grid-template-columns: repeat(4, 1fr);
   }
-  
+
   .funding-header {
     flex-direction: row;
     justify-content: space-between;
   }
 
   .funding article:last-of-type {
-    display: revert;
+    display: unset;
     margin-right: 1rem;
-
   }
 }

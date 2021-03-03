@@ -59,6 +59,10 @@
   color: #888;
 }
 
+.funding-article section a p:hover {
+  color: #333;
+}
+
 .funding-article aside {
   border-top: #ffebe8 solid 3px;
 }

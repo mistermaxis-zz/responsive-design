@@ -378,7 +378,7 @@
     height: auto;
   }
 
-  .copyright-text {
+  .footer-copyright-text {
     flex-direction: row;
   }
 }
